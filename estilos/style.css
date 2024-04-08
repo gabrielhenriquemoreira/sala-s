@@ -279,9 +279,59 @@ div.inside a:hover {
     color: rgb(255, 187, 0);
 }
 
+div#sobre {
+    background-color: rgb(255, 252, 252);
+    padding: 20px;
+    max-width: 400px;
+    margin: 30px auto 30px auto;
+    border-radius: 10px;
+}
+
+div#sobre p {
+    margin-bottom: 20px;
+    text-indent: 10px;
+    font-family: var(--texto);
+    text-align: justify;
+}
+
+div#sobre img {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+figcaption {
+    background-color: rgba(68, 62, 62, 0.274);
+    padding: 5px;
+    text-align: center;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    transform: translate(0px, -51px);
+}
+
 footer {
     margin-top: 20px;
     background-image: linear-gradient(to top, rgb(154, 27, 27), rgb(218, 77, 77));
     padding: 50px 10px 10px 10px;
     border-radius: 5px 5px 0px 0px;
+}
+
+footer ul li {
+    list-style-position: inside;
+    margin: 20px;
+}
+
+footer ul li a {
+    color: rgb(255, 170, 170);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(67, 9, 9);
+    font-weight: 700;
+}
+
+footer p.expl {
+    font-family: var(--texto);
 }

@@ -36,6 +36,18 @@
     main div#divtres div {
         max-width: 60%;
     }
+
+    main div#divquatro p {
+        font-size: 30px;
+    }
+
+    div.contato {
+        max-width: 60%;
+        display: block;
+        margin: auto;
+        transform: translate(25%, 0px);
+
+    }
 }
 
 @media screen and (min-width: 1020px) {
