@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+:root {
+    --texto: Nunito;
+    --titulo: Kode Mono;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: rgb(255, 223, 223);
+}
+
+/*main div#divum img {
+    float: right;
+    width: 60%;
+    
+}*/
+
+
+
+header > h1 {
+    font-family: var(--titulo);
+    font-size: 5em;
+    background-color: rgb(218, 77, 77);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+header > nav {
+    background-image: linear-gradient(to bottom, rgb(218, 77, 77), rgb(154, 27, 27));
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header > nav > a::before {
+    content: "| ";
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+header a:hover {
+    color: rgb(108, 27, 27);
+}
+
+
+
+main h2 {
+    font-family: var(--titulo);
+    text-align: center;
+    margin: 10px;
+    color: rgb(95, 22, 22);
+    
+}
+
+main div.geo {
+    background-color: rgb(134, 34, 34);
+    max-width: 300px;
+    height: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+main div.geo img {
+    width: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+main a {
+    text-decoration: none;
+}
+
+main a div.geo:hover {
+    box-shadow: 1px 1px 10px rgba(67, 3, 3, 0.232);
+}
+
+main div.geo audio.som {
+    width: 92%;
+    display: block;
+    margin: auto;
+
+}
+
+main div.geo p {
+    font-family: var(--texto);
+    margin: 20px 10px 30px 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+main div.homediv {
+    height: 267px;
+    /*background-color:rgb(255 138 138);*/
+}
+
+main div#divum h2 {
+    margin-top: 0px;
+    font-size: 1.2em;
+    padding-top: 108px;
+}
+
+div.homediv > p {
+    font-family: var(--texto);
+    font-size: 1.5em;
+    padding: 20px;
+    text-align: center;
+}
+
+div.homediv > a > div {
+    background-color: rgb(167, 55, 55);
+    background-image: linear-gradient(to top, rgb(167, 55, 55), rgb(168, 97, 97));
+    max-width: 90vw;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 50%;
+    position: relative;
+    /*margin: auto;*/
+}
+
+div.homediv > a > div > p {
+    font-family: var(--titulo);
+    font-weight: bolder;
+    font-size: 1.5em;
+    position: absolute;   
+    
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+main div#divum {
+    background-image: url('../imagens/43446.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+main div#divum h2 {
+    background-color: rgba(221, 210, 210, 0.21);
+    background-image: linear-gradient(to right, rgba(221, 210, 210, 0.571), rgba(235, 235, 235, 0.744));
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 50%;
+    padding-top: 150px;
+}
+
+main div#divdois {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-bottom: 0px;
+}
+
+div#divdois p{
+    color: rgb(118, 0, 0);
+    width: 80%;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+main div#divtres {
+    background-color: rgb(120, 45, 45);
+    height: 370px;
+    transform: translate(0px, -30px);
+}
+
+div#divtres > h2 {
+    color: rgb(45, 9, 9);
+}
+
+div#divtres h2 {
+    padding: 20px;
+}
+
+div#divtres div {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+div#divtres a {
+    text-decoration: none;
+    color: rgb(52, 7, 7);
+}
+
+div#divquatro {
+    font-family: var(--texto);
+    height: 500px;
+
+    background-image: url('../imagens/pexels-pixabay-159206.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#divquatro p {
+    background-image: linear-gradient(to right, rgba(221, 210, 210, 0.711), rgba(235, 235, 235, 0.715));
+
+    width: 60%;
+    height: 100%;
+
+    color: black;
+
+    transform: translate(66.5%);
+
+    padding-top: 8%;
+}
+
+div.contato {
+    background-image: linear-gradient(to left, rgb(172, 119, 119), rgb(119, 39, 39));
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    height: fit-content;
+    position: relative;
+}
+
+div.contato img {
+    display: block;
+    margin: auto;
+    /*transform: translate(0%, 55px);*/
+}
+
+div.contato > p {
+    margin-top: 0px;
+    margin-right: 8px;
+    transform: translate(13px);
+    font-family: var(--texto);
+    color: black;
+    font-weight: bold;
+}
+
+div.inside {
+    text-align: center;
+    
+    
+}
+
+img.foto {
+    border-radius: 50%;
+    right: 10px;
+}
+
+div.inside ul {
+    margin-top: 40px;
+    list-style-type: '\1F4CE';
+    list-style-position: inside;
+}
+
+div.inside a {
+    text-decoration: none;
+    color: rgb(45, 9, 9);
+}
+
+div.inside a:hover {
+    color: rgb(255, 187, 0);
+}
+
+footer {
+    margin-top: 20px;
+    background-image: linear-gradient(to top, rgb(154, 27, 27), rgb(218, 77, 77));
+    padding: 50px 10px 10px 10px;
+    border-radius: 5px 5px 0px 0px;
+}
