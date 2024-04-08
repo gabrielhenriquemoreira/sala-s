@@ -241,7 +241,6 @@ div.contato {
 div.contato img {
     display: block;
     margin: auto;
-    /*transform: translate(0%, 55px);*/
 }
 
 div.contato > p {
